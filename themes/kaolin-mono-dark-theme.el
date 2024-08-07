@@ -4,6 +4,11 @@
 ;;; Code:
 (require 'kaolin-themes)
 
+(defcustom kaolin-mono-dark-alt-bg nil
+  "Use alternative dark background."
+  :type 'boolean
+  :group 'kaolin-mono-dark)
+
 (define-kaolin-theme mono-dark "Almost monochrome dark green Kaolin theme."
   ;; Palette modification
   (
