@@ -9,7 +9,7 @@
   (
    (bg0 "#0c120f" black0)
    ;; (bg1 "#111915" black1)
-   (bg1 aquamarine5 black1)
+   (bg1 (if kaolin-mono-dark-alt-bg black0 aquamarine5) black1)
    (bg2 "#16211C" black2)
    (bg3 "#1B2822" black3)
    (bg4 "#25352D" black4)
